@@ -1,0 +1,34 @@
+
+// Home
+GET http://localhost:8000
+
+
+### Get all posts
+GET http://localhost:8000/produk
+
+
+### Get detail posts
+GET http://localhost:8000/produk/1
+
+
+### Create post data
+POST http://localhost:8000/produk
+Content-Type: application/json
+
+{
+    "nama": "beras",
+    "deskripsi": "ada 5 kg"
+}
+
+
+### Update post data
+PUT http://localhost:8000/produk/1
+Content-Type: application/json
+{
+    "title": "gula",
+     "body": "1 kg"
+}
+
+
+### Delete post data
+DELETE  http://localhost:8000/produk/3

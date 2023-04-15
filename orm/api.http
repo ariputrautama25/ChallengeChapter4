@@ -1,0 +1,36 @@
+
+// Home
+GET http://localhost:8000
+
+
+### Get all produk
+GET http://localhost:8000/produk
+
+
+### Get detail produk
+GET http://localhost:8000/channels/1
+
+
+### Create produk data
+POST http://localhost:8000/channels
+Content-Type: application/json
+
+{
+    "name": "Reksa Dana 5",
+    "description": "Cara menabung untuk pemula"
+}
+
+
+### Update channel data
+PUT http://localhost:8000/channels/1
+Content-Type: application/json
+
+{
+    "name": "Ganti judul"
+    // "description": "Ganti description"
+}
+
+
+### Delete channel data
+DELETE  http://localhost:8000/channels/2
+

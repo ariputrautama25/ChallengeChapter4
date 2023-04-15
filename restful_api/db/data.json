@@ -1,0 +1,24 @@
+{
+	"next_produk_id": 10,
+	"produk": [
+		{
+			"id": 1,
+			"nama": "beras",
+			"deskripsi": "ada 5 kg"
+		},
+		{
+			"id": 1,
+			"nama": "minyak",
+			"deskripsi": "ada 5 liter"
+		},
+		{
+			"id": 7
+		},
+		{
+			"id": 8
+		},
+		{
+			"id": 9
+		}
+	]
+}
